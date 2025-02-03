@@ -47,6 +47,6 @@ else:
 # i.
 highest_friend, highest_total = max(workout_total.items(), key=lambda x: x[1])
 print(    f"The friend with the highest total workout minutes {highest_total} "
-          f"is {highest_friend[:highest_friend.find("_")]}.")
+          f"is {highest_friend[:highest_friend.find('_')]}.")
 lowest_friend, lowest_total = min(workout_total.items(), key=lambda x: x[1])
-print(f"The friend with the lowest total workout minutes {lowest_total} is {lowest_friend[:lowest_friend.find("_")]}.")
+print(f"The friend with the lowest total workout minutes {lowest_total} is {lowest_friend[:lowest_friend.find('_')]}.")

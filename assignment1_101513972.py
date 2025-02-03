@@ -1,8 +1,8 @@
 ﻿# a
-'''
+"""
 Author: Arkdaii Akopian
 Assignment: #1
-'''
+"""
 
 # b
 gym_member = "Alex Alliton"  # str
